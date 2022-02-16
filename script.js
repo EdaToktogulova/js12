@@ -44,9 +44,9 @@ document.querySelector('input[type="text"]')
 document.querySelector('input[type="text"]')
 .addEventListener('focus', function () {
    if (!this.valie) {
-      this.className = "";
+      this.className = "one";
    }
    else {
-      this.className = "";
+      this.className = "two";
    }
 });
