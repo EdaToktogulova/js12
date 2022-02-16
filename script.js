@@ -25,3 +25,8 @@ document.querySelector('input[type="checkbox"]')
       alert('You are unemployed');
    }
 });
+
+document.querySelector('select')
+.addEventListener('input', function () {
+   console.log('input event triggerd');
+})
