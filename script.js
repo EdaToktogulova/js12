@@ -28,5 +28,25 @@ document.querySelector('input[type="checkbox"]')
 
 document.querySelector('select')
 .addEventListener('input', function () {
-   console.log('input event triggerd');
-})
+   if (this.value == '') {
+      alert('');
+   }
+   else if (this.value == '') {
+      alert('');
+   }
+});
+
+
+document.querySelector('input[type="text"]')
+.addEventListener('focus', function () {
+   this.className = "";
+});
+document.querySelector('input[type="text"]')
+.addEventListener('focus', function () {
+   if (!this.valie) {
+      this.className = "";
+   }
+   else {
+      this.className = "";
+   }
+});
