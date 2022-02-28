@@ -37,7 +37,7 @@ document.querySelector('select')
 });
 
 
-// document.querySelector('input[type="text"]')
+document.querySelector('input[type="text"]')
 .addEventListener('focus', function () {
    this.className = "";
 });
