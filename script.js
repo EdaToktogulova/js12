@@ -32,7 +32,7 @@ document.querySelector('select')
       alert('');
    }
    else if (this.value == '') {
-      alert('');
+      // alert('');
    }
 });
 
